@@ -1,0 +1,92 @@
+.mobile{
+	font-display: none;
+}
+.desktop{
+	display: none;
+}
+@media(max-width:480px){
+	.desktop{
+		display: none;
+	}
+	.mobile{display: block;}
+}
+body{
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fbfaf9;
+	padding: 0 20px 20px 20px;
+	border: 4px solid orangered;
+}
+@media screen and(max-width:480px){
+
+}
+
+p{
+	font-size: 17px;
+	font-family: roboto;
+	font-weight: normal;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.items{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.icon {
+	flex-basis: 25%;
+	border-image: initial;
+}
+
+div {
+	flex-basis: 75%;
+	font-size: 16px;
+	font-family: roboto;
+	font-weight: normal;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+#headline {
+	font-family: futura;
+	font-size: 60px;
+	text-align: center;
+	color:black;
+}
+
+.img{
+	direction: center;
+	size: 60px;
+	align-content: center;
+}
+
+
+#byline{
+	font-family: roboto;
+	text-align: left;
+	color: black;
+}
+
+#subhead{
+	font-family: futura;
+	text-align: center;
+}
+.items.one{
+	background-color: #fbfaf9;;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+.items {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+
+a{
+	color: black;
+	font-size: 12px;
+}
+
